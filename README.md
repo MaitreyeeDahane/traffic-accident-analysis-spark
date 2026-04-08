@@ -4,12 +4,6 @@ An end-to-end Big Data analytics system that processes traffic accident data wit
 
 ---
 
-## 🌐 Live Demo
-
-> **[▶ Launch Dashboard on Streamlit Cloud](https://your-app.streamlit.app)**
-> *(Replace with your deployed URL after deploying to Streamlit Cloud)*
-
----
 
 ## ✨ Features
 
@@ -89,13 +83,13 @@ The included `data/accidents.csv` is a synthetic dataset with **7,500 rows** acr
 
 ### Prerequisites
 - Python 3.10+
-- Java 11+ (required for PySpark)
+- Java 17 (recommended for Spark)
 
 ### Install & Run
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/traffic-accident-analysis-spark.git
+git clone https://github.com/MaitreyeeDahane/traffic-accident-analysis-spark.git
 cd traffic-accident-analysis-spark
 
 # 2. Create virtual environment (recommended)
@@ -125,16 +119,6 @@ docker run -p 8501:8501 traffic-accident-dashboard
 
 ---
 
-## ☁️ Deploy on Streamlit Cloud
-
-1. Push this repository to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**
-3. Select your repository and set **Main file path** to `src/app.py`
-4. Click **Deploy** — your app gets a public URL instantly
-
-> **Note:** Streamlit Cloud doesn't support Java/PySpark, so the app automatically falls back to a pure Pandas pipeline. All analytics and charts work identically.
-
----
 
 ## 📐 Architecture
 
@@ -162,13 +146,7 @@ Streamlit Cloud (live URL)
 
 ---
 
-## 📸 Screenshots
 
-| Overview Metrics | City Chart | Hotspot Map |
-|---|---|---|
-| *(add screenshot)* | *(add screenshot)* | *(add screenshot)* |
-
----
 
 ## 📄 License
 
