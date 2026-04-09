@@ -22,7 +22,7 @@ DATA_PATH = os.path.join(ROOT_DIR, "data", "accidents.csv")
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Traffic Accident Analysis",
-    page_icon="🚦",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -121,7 +121,7 @@ def main():
     # Header
     st.markdown("""
     <div style='text-align:center; padding: 10px 0 20px 0;'>
-        <h1 style='font-size:2.5rem; color:#e74c3c;'>🚦 Traffic Accident Analysis Dashboard</h1>
+        <h1 style='font-size:2.5rem; color:#e74c3c;'> Traffic Accident Analysis Dashboard</h1>
         <p style='color:#666; font-size:1rem;'></p>
     </div>
     """, unsafe_allow_html=True)
